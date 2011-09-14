@@ -1,0 +1,17 @@
+<package>
+  <description brief="executive_usarsim">
+
+     executive_usarsim, provides an interface to USARSIM simulator powered by UDK Engine
+
+  </description>
+  <author>Billy Okal</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/executive_usarsim</url>
+  <depend package="rospy"/>
+  <depend package="std_msgs"/>
+  <rosdep name="qt4"/>
+
+</package>
+
+
