@@ -85,7 +85,7 @@ class UsarsimManager(QtGui.QWidget, UsarsimUi):
     def send_custom_command(self):
         command = str(self.ui.line_edit_command.text())
         self.sock.send(command+'\r\n')
-        data = self.sock.recv(128)
+        data = self.sock.recv(1024)
         self.pub_status.publish('Command Response:'+str(data))
     
     ''' Log STATUS messages as they arrive'''
