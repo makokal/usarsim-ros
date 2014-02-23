@@ -1,6 +1,7 @@
 ROS interface to Usarsim simulator based on UDK (Unreal Development Kit)
 
-Installation
+
+### Installation
 
 - Install Git
 	sudo apt-get install git #deb based
@@ -14,3 +15,7 @@ Installation
 
 - Run the application
 	rosrun executive_usarsim usarsim_manager.py
+
+
+### TODO
+* Catkinize
